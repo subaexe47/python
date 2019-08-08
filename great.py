@@ -1,3 +1,3 @@
-n=int(input())
-a = list(map(int,input().split()))[:n]
-print(max(a))
+limit=int(input())
+list = list(map(int,input().split()))[:limit]
+print(max(list))
